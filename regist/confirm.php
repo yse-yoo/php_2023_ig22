@@ -9,21 +9,19 @@
 </head>
 
 <body>
-    <h1>Regist</h1>
-    <form action="confirm.php" method="post">
+    <h1>Confirm</h1>
+    <form action="" method="post">
         <div>
             <label for="">Name</label>
-            <input type="text" name="name">
         </div>
         <div>
             <label for="">Email</label>
-            <input type="text" name="email">
         </div>
         <div>
             <label for="">Password</label>
-            <input type="password" name="password">
         </div>
-        <button>Confirm</button>
+        <button>Regist</button>
+        <a href="input.php">Back</a>
     </form>
 </body>
 
