@@ -29,6 +29,10 @@ $regist = $_POST;
             <label for="">Gender</label>
             <p><?= $regist['gender'] ?></p>
         </div>
+        <div>
+            <label for="">Birthday</label>
+            <p><?= $regist['month'] ?></p>
+        </div>
         <button>Regist</button>
         <a href="input.php">Back</a>
     </form>

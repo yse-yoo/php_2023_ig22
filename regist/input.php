@@ -32,6 +32,24 @@
             <input id="gender-female" type="radio" name="gender" value="female">
             <label for="gender-female">Female</label>
         </div>
+        <div>
+            <label for="">Birthday</label>
+            <select name="month" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            月
+        </div>
         <button>Confirm</button>
     </form>
 </body>
