@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Regist</h1>
+    <h1>Input</h1>
     <form action="confirm.php" method="post">
         <div>
             <label for="">Name</label>

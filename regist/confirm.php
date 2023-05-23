@@ -1,3 +1,9 @@
+<?php
+//PHP program
+$regist = $_POST;
+// var_dump($regist);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,12 +19,11 @@
     <form action="" method="post">
         <div>
             <label for="">Name</label>
+            <p><?= $regist['name'] ?></p>
         </div>
         <div>
             <label for="">Email</label>
-        </div>
-        <div>
-            <label for="">Password</label>
+            <p><?= $regist['email'] ?></p>
         </div>
         <button>Regist</button>
         <a href="input.php">Back</a>
