@@ -25,6 +25,10 @@ $regist = $_POST;
             <label for="">Email</label>
             <p><?= $regist['email'] ?></p>
         </div>
+        <div>
+            <label for="">Gender</label>
+            <p><?= $regist['gender'] ?></p>
+        </div>
         <button>Regist</button>
         <a href="input.php">Back</a>
     </form>
