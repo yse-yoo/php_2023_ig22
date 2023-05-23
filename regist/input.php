@@ -14,15 +14,15 @@
     <form action="confirm.php" method="post">
         <div>
             <label for="">Name</label>
-            <input type="text" name="name">
+            <input class="form-control" type="text" name="name">
         </div>
         <div>
             <label for="">Email</label>
-            <input type="text" name="email">
+            <input class="form-control" type="text" name="email">
         </div>
         <div>
             <label for="">Password</label>
-            <input type="password" name="password">
+            <input class="form-control" type="password" name="password">
         </div>
         <div>
             <label for="">Gender</label>
@@ -35,7 +35,7 @@
         </div>
         <div>
             <label for="">Birthday</label>
-            <select name="month" id="">
+            <select class="form-control" name="month" id="">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -53,9 +53,9 @@
         </div>
         <div>
             <label for="">Note</label>
-            <textarea name="note" id="" cols="80" rows="10"></textarea>
+            <textarea class="form-control" name="note" id="" cols="80" rows="10"></textarea>
         </div>
-        <button>Confirm</button>
+        <button class="btn btn-primary">Confirm</button>
     </form>
 </body>
 
