@@ -50,6 +50,10 @@
             </select>
             月
         </div>
+        <div>
+            <label for="">Note</label>
+            <textarea name="note" id="" cols="80" rows="10"></textarea>
+        </div>
         <button>Confirm</button>
     </form>
 </body>

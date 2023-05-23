@@ -33,6 +33,10 @@ $regist = $_POST;
             <label for="">Birthday</label>
             <p><?= $regist['month'] ?></p>
         </div>
+        <div>
+            <label for="">Note</label>
+            <p><?= nl2br($regist['note']) ?></p>
+        </div>
         <button>Regist</button>
         <a href="input.php">Back</a>
     </form>
